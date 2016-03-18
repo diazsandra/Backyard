@@ -1,0 +1,86 @@
+$white: #FDFEFE; 
+$width100: 100%;
+$width20: 20px;
+$height500: 500px;
+$height20: 20px;
+$opacity: rgba(0,0,0, 0.4);
+$opacity05:  rgba(0,0,0, 0.05);
+$bgsizecover: cover;
+$pdt5-8: 5% 8%;
+$pdt5: 5%;
+$pdt1: 1%;
+$mg5: 5%;
+$mg5-0: 5% 0;
+$z-1: -1;
+$bgprimary: #428bca;
+$bradius50: 50px;
+$br2solblue: 2px solid #428bca;
+$inline: inline-block;
+
+
+#strategy {
+	color: $white;
+	background-image: url(../images/fondo.jpg); 
+	background-size: $bgsizecover;
+	width: $width100;
+	height: height500;
+
+	.fondonegro {
+	background-color: $opacity ;
+	width: $width100;
+	height: $height500;
+	z-index: $z-1;
+	padding: $pdt5-8;
+
+		.button {
+		border-radius: $bradius50  !important;
+		border: $br2solblue !important;
+		height: $height20 !important;
+		padding: $pdt1 !important;
+		margin-right: $mg5 !important;
+		}
+
+		.button1 {
+		background-color: $bgprimary !important;
+		color: $white;
+		}
+
+
+		.txt-white {
+			color: $white;
+		}
+	}
+}
+
+#optimize {
+	margin: $mg5-0;
+
+		img {
+			width: $width100;
+		}
+}
+
+		.button {
+		border-radius: $bradius50  !important;
+		border: $br2solblue !important;
+		height: $height20 !important;
+		padding: $pdt1 !important;
+		margin-right: $mg5 !important;
+		}
+
+
+
+.pdt5 {
+	padding: $pdt5;
+}
+
+.gray {
+	background-color: $opacity05; 
+}
+
+.button2 {
+	height: $height20 !important;
+	width: $width20 !important;
+	display: $inline;
+	padding: $pdt1 !important;
+}

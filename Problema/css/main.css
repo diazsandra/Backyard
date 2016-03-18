@@ -1,0 +1,49 @@
+#strategy {
+  color: #FDFEFE;
+  background-image: url(../images/fondo.jpg);
+  background-size: cover;
+  width: 100%;
+  height: height500; }
+  #strategy .fondonegro {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    padding: 5% 8%; }
+    #strategy .fondonegro .button {
+      border-radius: 50px !important;
+      border: 2px solid #428bca !important;
+      height: 20px !important;
+      padding: 1% !important;
+      margin-right: 5% !important; }
+    #strategy .fondonegro .button1 {
+      background-color: #428bca !important;
+      color: #FDFEFE; }
+    #strategy .fondonegro .txt-white {
+      color: #FDFEFE; }
+
+#optimize {
+  margin: 5% 0; }
+  #optimize img {
+    width: 100%; }
+
+.button {
+  border-radius: 50px !important;
+  border: 2px solid #428bca !important;
+  height: 20px !important;
+  padding: 1% !important;
+  margin-right: 5% !important; }
+
+.pdt5 {
+  padding: 5%; }
+
+.gray {
+  background-color: rgba(0, 0, 0, 0.05); }
+
+.button2 {
+  height: 20px !important;
+  width: 20px !important;
+  display: inline-block;
+  padding: 1% !important; }
+
+/*# sourceMappingURL=main.css.map */
